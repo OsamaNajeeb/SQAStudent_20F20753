@@ -1,1 +1,10 @@
+Ellysaw = input("Enter your Username: ")
+Barracuda = input("Enter your Password: ")
 
+if Ellysaw == "Admin":
+    if Barracua == "pass123":
+        print("Access Granted")
+
+        print("Wrong Password/Access Denied)
+else:
+    print("Wrong Username/Access Denied")
