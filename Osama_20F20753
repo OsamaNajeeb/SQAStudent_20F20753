@@ -1,10 +1,28 @@
-Ellysaw = input("Enter your Username: ")
-Barracuda = input("Enter your Password: ")
+Trend_List = []
+Trend_Range = int(input("ENTER THE SIZE OF THE LIST: "))
+print(" ")
+for EYE in range(0, Trend_Range):
+    print("ENTER THE VALUE WITHIN INDEX", EYE)
+    Trend = str(input())
+    Trend_List.append(Trend)
+print("DATA HAS BEEN STORED", "\n")
 
-if Ellysaw == "Admin":
-    if Barracua == "pass123":
-        print("Access Granted")
+print("PLEASE ENTER SAME SIZE OF THE LIST ACCORDING TO YOUR TREND SIZE")
+Market_List = []
+Market_Range = #####(input("ENTER THE SIZE OF THE LIST: "))
+print(" ")
+for EYE in range(0, Market######):
+    print("ENTER THE VALUE WITHIN INDEX", EYE)
+    Market = int(input())
+    Market_List.append(Market)
+print("DATA HAS BEEN STORED..PROCESSING RESULT", "\n")
+print("TABLE OF TRENDS & MARKET:")
+print("TRENDS:  ", Trend_List)
+print("MARKETS: ", Market_List)
+print("PROCESSING ADVICE...", "\n")
 
-        print("Wrong Password/Access Denied)
-else:
-    print("Wrong Username/Access Denied")
+for EYE in range(0, Trend_Range):
+    if Market_List##### >= 30:
+        print("INVEST THE", Trend_List[EYE])
+    else:
+        print("DON'T INVEST THE", Trend_List[EYE])
