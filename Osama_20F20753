@@ -9,9 +9,9 @@ print("DATA HAS BEEN STORED", "\n")
 
 print("PLEASE ENTER SAME SIZE OF THE LIST ACCORDING TO YOUR TREND SIZE")
 Market_List = []
-Market_Range = (input("ENTER THE SIZE OF THE LIST: "))
+Market_Range = int(input("ENTER THE SIZE OF THE LIST: "))
 print(" ")
-for EYE in range(0, Market):
+for EYE in range(0, Market_Range):
     print("ENTER THE VALUE WITHIN INDEX", EYE)
     Market = int(input())
     Market_List.append(Market)
